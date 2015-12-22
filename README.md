@@ -6,7 +6,7 @@ A Python library for interacting with the Morpheus API
 
 ## Example
 
-Note: Morpheus requires Python 2.5
+>Note: Morpheus requires Python 3.5
 
 ```python
 import morpheus
