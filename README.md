@@ -2,14 +2,14 @@
 A Python library for interacting with the Morpheus API
 
 ## Installation
-```git clone https://github.com/subjectrefresh/morpheus-python-lib.git```
+```pip install morpheuslib```
 
 ## Example
 
 >Note: Morpheus requires Python 3.5
 
 ```python
-import morpheus
+from morpheuslib import morpheus
 
 output = morpheus.convert("pdf", "html", "http://milesbudden.com/morpheus.pdf")
 
