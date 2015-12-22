@@ -15,7 +15,6 @@ def convert(fr, to, ur):
     
     content = urllib.request.urlopen(full_url)
     output = content.read().decode('utf-8')
+    
     ser = json.loads(output)
-    for item in ser:
-        if ser[item] != ("url" or "from" or "to"):
-            return ser[item]
+    return ser[to]
