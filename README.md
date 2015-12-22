@@ -11,7 +11,7 @@ A Python library for interacting with the Morpheus API
 ```python
 import morpheus
 
-output = morpheus.convert("pdf", "html", "http://www.indire.it/wp-content/uploads/2015/08/pdf-sample.pdf")
+output = morpheus.convert("pdf", "html", "http://milesbudden.com/morpheus.pdf")
 
 # This may be slow with some files. Try writing to a file if it takes too long.
 print(output)
