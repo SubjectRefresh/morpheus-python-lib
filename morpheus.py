@@ -18,3 +18,6 @@ def convert(fr, to, ur):
     
     ser = json.loads(output)
     return ser[to]
+
+def output(into):
+    print(into.encode(sys.stdout.encoding, errors='replace'))
