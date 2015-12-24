@@ -1,12 +1,14 @@
 # morpheus-python-lib
-A Python library for interacting with the Morpheus API
+A Python library for interacting with the [Morpheus API](http://subjectrefresh.info/morpheus/)
 
 ## Installation
-```pip install morpheuslib```
+```bash
+pip install morpheuslib
+```
 
 ## Example
 
->Note: Morpheus requires Python 3.5
+> Note: Morpheus requires Python 3.5
 
 ```python
 import sys
